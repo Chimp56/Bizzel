@@ -44,9 +44,6 @@ def is_library_busy(reservations):
         return "Not Busy", available_places        
     return "Busy", available_places
 
-
-# print(is_library_busy(reservations))
-# homepage = 'https://sites.google.com/d/1d4ciRnNkLIREEqSyKLK17wt8hy_KaqRU/p/1G0PwWL8LhKhYEe_2HUjWKM-NXLsgAGug/'
 t = st.empty()
 n = st.empty()
 while True:
